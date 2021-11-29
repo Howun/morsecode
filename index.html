@@ -5,18 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <title>Morse Code Translator</title>
 </head>
 <body>
-  <h1>Morse Code Translator!</h1>
+  <h1 id="title">Morse Code Translator!</h1>
   <section>
+    <div class="morseCodeBox">
     <label id="morsecode">Morse Code:</label>
     <input id = "translateTxt" type="text" name="morse">
     <button id = "translateButton">Translate!</button>
+    </div>
+
     <p id="translated">Translated:</p>
     <p id="translated-display"></p>
   </section>
-  <p>To translate morse code to English: for each character of morse code, split with a space. A "/" creates a space between the words created.</p>
+  <p id="instructions">To translate morse code to English:<br>
+    for each character of morse code, split with a space. <br> A " / " creates a space between the words created.</p>
   <script type="module" src="./main.js"></script>
 </body>
 </html>
