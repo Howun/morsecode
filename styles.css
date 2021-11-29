@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: #e0e0e0;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+#title {
+  padding: 3rem;
+  text-align: center;
+}
+
+.morseCodeBox {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#translateTxt {
+  height: 1rem;
+  width: 300px;
+}
+
+#morsecode {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+#translateButton {
+  margin: 10px;
+}
+
+#translated {
+  font-size: 1.3rem;
+}
+
+#translated-display {
+  padding: 1rem;
+  border: 1px solid whitesmoke;
+  padding-bottom: 20px;
+}
+
+#instructions {
+  padding-top: 50px;
+  font-size: 1rem;
+  text-align: center;
+}
