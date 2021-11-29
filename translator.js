@@ -146,4 +146,6 @@ export const morse = (code) => {
   else if(code == "/") {
     return (" ")
   }
+  
+  else return ("This is not morse code")
 };

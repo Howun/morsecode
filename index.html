@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Morse Code Translator</title>
 </head>
 <body>
   <h1>Morse Code Translator!</h1>
   <section>
-    <label for="morsecode">Morse Code:</label>
+    <label id="morsecode">Morse Code:</label>
     <input id = "translateTxt" type="text" name="morse">
     <button id = "translateButton">Translate!</button>
-    <p>Translated:</p>
-    <p id="translated"></p>
+    <p id="translated">Translated:</p>
+    <p id="translated-display"></p>
   </section>
   <p>To translate morse code to English: for each character of morse code, split with a space. A "/" creates a space between the words created.</p>
   <script type="module" src="./main.js"></script>

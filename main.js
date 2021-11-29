@@ -2,7 +2,7 @@ import {morse} from "./translator.js";
 
 const translateButton = document.getElementById("translateButton");
 let textBox = document.getElementById("translateTxt");
-let translatedTxt = document.getElementById("translated");
+let translatedTxt = document.getElementById("translated-display");
 
 translateButton.addEventListener("click", () => {
 
@@ -12,7 +12,6 @@ translateButton.addEventListener("click", () => {
     const translated = toArr.map(values => {
       return morse(values)
     })
-
     translatedTxt.innerHTML = translated.join("");
   }
-})                                          
+})
